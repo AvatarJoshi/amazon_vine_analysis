@@ -31,12 +31,20 @@ In order to compare paid and unpaid reviews I only analyzed reviews that had a h
 
 **Results for Paid Reviews for Musical Instruments**
 
-Total Number of Reviews = 
+Total Number of Reviews = 59 
 
-Number of 5-Star Reviews = 
+Number of 5-Star Reviews = 34
 
-Percentage of 5-Star Reviews = 
+Percentage of 5-Star Reviews = 57.6%
 
-**Results for Unpaid Reviews for Musical Instruments**
+**Results for Unpaid Reviews for Musical Instruments**\
+
+Total Number of Reviews = 13,480
+
+Number of 5-Star Reviews = 7,678
+
+Percentage of 5-Star Reviews = 57.0%
 
 ## Summary
+
+The code provided here is an efficient way of performing ETL using Amazon Webservices, PostgreSQL/pgAdmin, GoogleColab, and PySpark. In addition, the code provides basic analyses on how helpful paid and unpaid reviews are for different products. In my analysis, I looked more closely at how paid vs unpaid reviews differed for musical instruments. The results indicate that both paid and unpaid reviews achieved 5-star reviews at similar percentage of times. Based on this preliminary analysis, it is unclear if paying for reviews for musical instruments is actually worth the cost. Further analysis could be performed to determine if paid reviews help increase the number of products sold. This would be especially informative if both pre-review and post-review sales could be compared.
